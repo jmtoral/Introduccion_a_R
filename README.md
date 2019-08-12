@@ -8,17 +8,17 @@ El presente curso tiene como objetivo enseñar a producir documentos profesional
 
 ## ¿ Cómo instalo (y uso) `R`?
 
-Para este curso vamos a trabajar, desde el principio, con código en `R`. Es necesario tener **la última versión** de este lenguaje, al momento de escribir este repositorio ésta es la versión **3.5.2**.
+Para este curso vamos a trabajar, desde el principio, con código en `R`. Es necesario tener **la última versión** de este lenguaje, al momento de escribir este repositorio ésta es la versión **3.6.1**, llamada *Action of the Toes*.
 
 Para instalarlo, es necesario entrar a [*The Comprehensive R Archive Network*](https://cran.r-project.org/) y seguir las instrucciones para cada sistema operativo.
 
 ### MAC OSX
 
-- Basta con descargar el archivo `.pkg` [de este link](https://cran.r-project.org/bin/macosx/R-3.5.2.pkg), descomprimir el archivo, abrir el archivo y seguir las instrucciones.
+- Basta con descargar el archivo `.pkg` [de este link](https://cran.r-project.org/bin/macosx/R-3.6.1.pkg), descomprimir el archivo, abrir el archivo y seguir las instrucciones.
 
 ### Windows
 
-- Basta con descargar el archivo `.exe` [de este link](https://cran.r-project.org/bin/windows/base/R-3.5.2-win.exe), abrir el archivo y seguir las instrucciones.
+- Basta con descargar el archivo `.exe` [de este link](https://cran.r-project.org/bin/windows/base/R-3.6.1-win.exe), abrir el archivo y seguir las instrucciones.
 
 ### Linux
 
@@ -129,30 +129,35 @@ Algunos repositorios recomendados para buscar buenas bases de datos.
     - Comandos básicos para medidas de tendencia central (y su interpretación)
     - ¿Cómo hacer tablas profesionales para reportes profesionales?
     - ¿Cómo llamar datos en formato *.xls*, *.csv*, *.txt* o *.dta*.
-  - Material:
-    - Presentación:
-      - Pueden encontrar el *.Rmd* [aquí](https://raw.githubusercontent.com/jmtoral/Intro-estadistica-R/master/Sesion_1/Sesion1.Rmd). Como podrán ver en los primeros párrafos del documento. Éste está incompleto, pero al final de la clase tendrá todo lo necesario para servir de referencia. Les recomiendo descargar este archivo o clonar el repo finalizada la sesión. 
-    - Datos:
-      - Usaremos datos de asesinatos perpretados por policías en Estados Unidos de *FiveThirtyEight*.
-      - [Lista de servidores públicos sancionados por la Secretaría de la Función Pública.](http://datosabiertos.funcionpublica.gob.mx/datosabiertos/rsps/ServPubSancionados.csv)
+    - (Breve) Introducción a la regresión lineal y presentación de resultados con `stargazer`.
+    - Uso de *R Makrdown* para reportes.
   
-- Sesión 2
+- Sesión 2: Manipulación y tidyverso.
   - Temas:
-    - Manipulación de datos con `dplyr`.
     - Introducción a `tidyverse` (y sus diferencias con `Rbase`)
+    - Manipulación de datos con `dplyr`.
+    - Introducción a los usos de `select` y `filter`, para filtrar y seleccionar tablas.
+    - Introducción a `group_by` y `summarise` para sumar y obtener medidas de tencia central por grupos.
+    - Introducción a `mutate` para la creación de variables.
+    - Usos avanzado se `dplyr`.
   
 
-- Sesión 3
-  - Presentación
-  - Datos
+- Sesión 3: Visualización
+  - Temas:
+    - Introducción a la visualización de datos bajo en enfoque de la "gramática de gráficas" (*gg*).
+    - Introducción a `ggplot2`.
+    - Introducción a geometrías, *mapping*, formas, escalas y paletas.
+    - Extensiones a `ggplot2`: `GGally`, `ggridges`, `ggtiles`.
+    - "Es que las gráficas de *STATA* me gustan mucho": Temas con `hrbrthemes` y `ggthemes`.
   
-- Sesión 4
-  - Presentación
-  - Datos
-  
+- Sesión 4: Usos prácticos
+  - Temas:
+    - Uso de datos geográficos con `sf`.
+    - Uso de datos de encuestas con `srvyr`.
+    
 ## Sobre el instructor
 
-Mi nombre es Manuel Toral, actualmente soy investigador especializado en datos en *Mexicanos Contra la Corrupción y la Impunidad*. Estudié Política Pública en la *Escuela Harris de la Universidad de Chicago* y Ciencia Política y Relaciones Internacionales en el *Centro de Investigación y Docencia Económicas*. Como instuctor en `R`, soy parte del directorio de instructores de RStudio, [aquí puedes ver mi perfil](https://community.rstudio.com/u/jmtoral/summary).
+Mi nombre es Manuel Toral, actualmente trabajo con datos judiciales para el análisis de la política pública del Poder Judicial, fui investigador especializado en datos en *Mexicanos Contra la Corrupción y la Impunidad*. Estudié Política Pública en la *Escuela Harris de la Universidad de Chicago* y Ciencia Política y Relaciones Internacionales en el *Centro de Investigación y Docencia Económicas*. Como instuctor en `R`, soy parte del directorio de instructores de RStudio, [aquí puedes ver mi perfil](https://community.rstudio.com/u/jmtoral/summary).
 
 Llevo 5 años usando `R` de manera profesional en una diversidad de proyectos de corte inmobiliario, análisis de grandes cantidades de datos, seguridad, justicia y, actualmente, en corrupción, transparencia y combate a la impunidad en México. Puedes ver algo de mis últimos trabajos de investigación con datos en el blog Desarmando la Corrupción de MCCI en alianza con la revista Nexos.
 
