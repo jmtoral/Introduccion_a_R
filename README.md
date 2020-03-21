@@ -87,6 +87,8 @@ En este curso se pretende que podamos presentar resultados en reportes profesion
 
 Este curso está construido con base en siguientes materiales:
 
+- [Ismay & Kim - Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.netlify.com/index.html). 
+
 - [Navarro - Learning statistics with R: A tutorial for psychology students and other beginners.](https://learningstatisticswithr.com/book/). El código del libro disponible [aquí](https://learningstatisticswithr.com/).
   
 - [Hanck et al. - Introduction to Econometrics with R](https://www.econometrics-with-r.org/1-introduction.html)
