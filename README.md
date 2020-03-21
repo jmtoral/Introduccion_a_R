@@ -117,7 +117,7 @@ Algunos repositorios recomendados para buscar buenas bases de datos.
 - [Harvard Dataverse](https://dataverse.harvard.edu/)
 - [Datos abiertos del Gobierno Federal](https://datos.gob.mx/)
 - [Banco de Información del LNPP del CIDE](http://datos.cide.edu/)
-- [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Open ICPSR](https://www.openicpsr.org/openicpsr/)
 - [UK Data Service](http://reshare.ukdataservice.ac.uk/)
 - [Empirical Studies of Conflict](https://esoc.princeton.edu/)
