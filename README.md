@@ -1,6 +1,6 @@
 # Sobre este repositorio
 
-En este repositorio podrán encontrar todo el material que utilizaremos en el curso. Se irá actualizando constanemente y podrán descargarlo si así lo desean o clonarlo por medio de *GitHub*.
+En este repositorio podrán encontrar todo el material que utilizaremos en el curso. Se irá actualizando constantemente y podrán descargarlo si así lo desean o clonarlo por medio de *GitHub*.
 
 ## Objetivo del curso
 
