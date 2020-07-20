@@ -8,17 +8,17 @@ El presente curso tiene como objetivo enseñar a producir documentos profesional
 
 ## ¿ Cómo instalo (y uso) `R`?
 
-Para este curso vamos a trabajar, desde el principio, con código en `R`. Es necesario tener **la última versión** de este lenguaje, al momento de escribir este repositorio ésta es la versión **3.6.1**, llamada *Action of the Toes*.
+Para este curso vamos a trabajar, desde el principio, con código en `R`. Es necesario tener **la última versión** de este lenguaje, al momento de escribir este repositorio ésta es la versión **4.0.2**, llamada *Taking Off Again*.
 
 Para instalarlo, es necesario entrar a [*The Comprehensive R Archive Network*](https://cran.r-project.org/) y seguir las instrucciones para cada sistema operativo.
 
 ### MAC OSX
 
-- Basta con descargar el archivo `.pkg` [de este link](https://cran.r-project.org/bin/macosx/R-3.6.1.pkg), descomprimir el archivo, abrir el archivo y seguir las instrucciones.
+- Basta con descargar el archivo `.pkg` [de este link](https://cran.r-project.org/bin/macosx/R-4.0.2.pkg), descomprimir el archivo, abrir el archivo y seguir las instrucciones.
 
 ### Windows
 
-- Basta con descargar el archivo `.exe` [de este link](https://cran.r-project.org/bin/windows/base/R-3.6.1-win.exe), abrir el archivo y seguir las instrucciones.
+- Basta con descargar el archivo `.exe` [de este link](https://cran.r-project.org/bin/windows/base/R-4.0.2-win.exe), abrir el archivo y seguir las instrucciones.
 
 ### Linux
 
@@ -30,15 +30,16 @@ En Terminal, escribir las siguientes dos líneas:
 
 ## ¿Cómo instalar RStudio?
 
-Para instalar RStudio (plataforma que usaremos para el uso de `R`), es necesario acudir a [esta página](https://www.rstudio.com/products/rstudio/download/) y seleccionar nuestro sistema operativo en el menú *Installers for Supported Platforms*. En el caso de Windows, [este](https://download1.rstudio.org/RStudio-1.1.463.exe) es el archivo, y en el caso de MAC OSX el archivo es [éste](https://download1.rstudio.org/RStudio-1.1.463.dmg).
+Para instalar RStudio (plataforma que usaremos para el uso de `R`), es necesario acudir a [esta página](https://www.rstudio.com/products/rstudio/download/) y seleccionar nuestro sistema operativo en el menú *Installers for Supported Platforms*. En el caso de Windows, [este](https://download1.rstudio.org/desktop/windows/RStudio-1.3.1056.exe) es el archivo, y en el caso de MAC OSX el archivo es [éste](https://download1.rstudio.org/desktop/macos/RStudio-1.3.1056.dmg).
 
 Para Ubuntu, hay que correr estas líneas en Terminal:
 
 `sudo apt-get install gdebi-core`
 
-`wget https://download2.rstudio.org/rstudio-server-1.1.463-amd64.deb`
+`wget https://download2.rstudio.org/server/xenial/amd64/rstudio-server-1.3.1056-amd64.deb`
 
-`sudo gdebi rstudio-server-1.1.463-amd64.deb`
+`sudo gdebi rstudio-server-1.3.1056-amd64.deb`
+
 
 ## ¿Cómo instalo LaTeX?
 
@@ -127,35 +128,36 @@ Algunos repositorios recomendados para buscar buenas bases de datos.
 - **Sesión 1:**
   - Temas:
     - Introducción al uso de `R` y *RStudio*
-    - Introducción a manipulación básica de datos.
+    - Introducción a la sintaxis
+    - Introducción a manipulación básica de datos: tipos y estructuras de datos
     - Comandos básicos para medidas de tendencia central (y su interpretación)
     - ¿Cómo hacer tablas profesionales para reportes profesionales?
-    - ¿Cómo llamar datos en formato *.xls*, *.csv*, *.txt* o *.dta*.
-    - (Breve) Introducción a la regresión lineal y presentación de resultados con `stargazer`.
-    - Uso de *R Makrdown* para reportes.
+    - ¿Cómo llamar datos en formato *.xls*, *.csv*, *.txt* o *.dta*
+    - Uso de *R Makrdown* para reportes
   
 - Sesión 2: Manipulación y tidyverso.
   - Temas:
     - Introducción a `tidyverse` (y sus diferencias con `Rbase`)
-    - Manipulación de datos con `dplyr`.
-    - Introducción a los usos de `select` y `filter`, para filtrar y seleccionar tablas.
-    - Introducción a `group_by` y `summarise` para sumar y obtener medidas de tencia central por grupos.
-    - Introducción a `mutate` para la creación de variables.
-    - Usos avanzado se `dplyr`.
+    - Manipulación de datos con `dplyr`
+    - Introducción a los usos de `select` y `filter`, para filtrar y seleccionar tablas
+    - Introducción a `group_by` y `summarise` para sumar y obtener medidas de tencia central por grupos
+    - Introducción a `mutate` para la creación de variables
+    - Usos avanzado se `dplyr`
   
 
 - Sesión 3: Visualización
   - Temas:
-    - Introducción a la visualización de datos bajo en enfoque de la "gramática de gráficas" (*gg*).
-    - Introducción a `ggplot2`.
-    - Introducción a geometrías, *mapping*, formas, escalas y paletas.
-    - Extensiones a `ggplot2`: `GGally`, `ggridges`, `ggtiles`.
-    - "Es que las gráficas de *STATA* me gustan mucho": Temas con `hrbrthemes` y `ggthemes`.
+    - Introducción a la visualización de datos bajo en enfoque de la "gramática de gráficas" (*gg*)
+    - Introducción a `ggplot2`
+    - Introducción a geometrías, *mapping*, formas, escalas y paletas
+    - Extensiones a `ggplot2`: `GGally`, `ggridges`, `ggtiles`
+    - "Es que las gráficas de *STATA* me gustan mucho": Temas con `hrbrthemes` y `ggthemes`
   
 - Sesión 4: Usos prácticos
   - Temas:
-    - Uso de datos geográficos con `sf`.
-    - Uso de datos de encuestas con `srvyr`.
+    - Uso de datos geográficos con `sf`
+    - Uso de datos de encuestas con `srvyr`
+    - Introducción al uso de cadenas de texto
     
 ## Sobre el instructor
 
@@ -163,4 +165,4 @@ Mi nombre es Manuel Toral, actualmente trabajo con datos judiciales para el aná
 
 Llevo 5 años usando `R` de manera profesional en una diversidad de proyectos de corte inmobiliario, análisis de grandes cantidades de datos, seguridad, justicia y, actualmente, en corrupción, transparencia y combate a la impunidad en México. Puedes ver algo de mis últimos trabajos de investigación con datos en el blog Desarmando la Corrupción de MCCI en alianza con la revista Nexos.
 
-Como docente en `R`, he sido el experto residente de la Escuela Harris de la Universidad de Chicago, en la que dirgí la "STATA and R Bar", que asesoraba en el uso de estas herramientas a alumnos de maestría y doctorado. En 2017, fui contratado por la Unidad de Investigación Aplicada de MCCI para capacitar a sus integrantes en el uso de R, equipo al que finalmente [me integré](https://contralacorrupcion.mx/quienes-somos/) como investigador.
+Como docente en `R`, he sido el experto residente de la Escuela Harris de la Universidad de Chicago, en la que dirgí la "STATA and R Bar", que asesoraba en el uso de estas herramientas a alumnos de maestría y doctorado. En 2017, fui contratado por la Unidad de Investigación Aplicada de MCCI para capacitar a sus integrantes en el uso de R, equipo al que finalmente [me integré](https://contralacorrupcion.mx/quienes-somos/) como investigador. Actualmente, me dedico al estudio de información judicial.
